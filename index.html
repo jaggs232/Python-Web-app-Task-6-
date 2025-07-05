@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Hello, I'm John!</h1>
+        <p>I'm a web developer.</p>
+        
+        <h2>About Me</h2>
+        <p>I love creating websites and learning new technologies.</p>
+        
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Flask</li>
+        </ul>
+        
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>My First Website</h3>
+            <p>A simple website I built to learn HTML and CSS.</p>
+        </div>
+        
+        <div class="project">
+            <h3>Calculator App</h3>
+            <p>A basic calculator made with Python.</p>
+        </div>
+    </div>
+</body>
+</html>
